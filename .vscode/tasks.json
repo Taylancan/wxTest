@@ -1,0 +1,93 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "debug",
+			"command": "c:\\mingw-w64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-g", 
+				"${workspaceFolder}\\src\\*.cpp",
+				"-o", 
+				"${workspaceFolder}\\build\\debug\\${fileBasenameNoExtension}.exe",
+				"-I",
+				"${workspaceFolder}\\include",
+				"-I",
+				"C:\\Program Files (x86)\\wxWidgets\\include",
+				"-I",
+				"C:\\Program Files (x86)\\wxWidgets\\lib\\gcc_x64_dll\\mswud",
+				"-L",
+				"C:\\Program Files (x86)\\wxWidgets\\lib\\gcc_x64_dll",
+				"-D",
+				"__WXMSW__",
+				"-D",
+				"WXUSINGDLL",
+				"-mthreads", 
+				"-Wl,--subsystem,windows",
+				"-mwindows",
+				"-lrpcrt4",
+				"-luuid",
+				"-lwinspool",
+				"-lwinmm",
+				"-lwxmsw33ud_core",
+				"-lwxbase33ud",
+			
+			],
+			"options": {
+				"cwd": "c:\\mingw-w64\\mingw64\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: c:\\mingw-w64\\mingw64\\bin\\g++.exe"
+		},
+
+		{
+			"type": "cppbuild",
+			"label": "release",
+			"command": "c:\\mingw-w64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"${workspaceFolder}\\src\\*.cpp", 
+				"-o", 
+				"${workspaceFolder}\\build\\release\\${fileBasenameNoExtension}.exe",
+				"-I",
+				"${workspaceFolder}\\include",
+				"-I",
+				"C:\\Program Files (x86)\\wxWidgets\\include",
+				"-I",
+				"C:\\Program Files (x86)\\wxWidgets\\lib\\gcc_x64_dll\\mswu",
+				"-L",
+				"C:\\Program Files (x86)\\wxWidgets\\lib\\gcc_x64_dll",
+				"-D",
+				"__WXMSW__",
+				"-D",
+				"WXUSINGDLL",
+				"-mthreads", 
+				"-Wl,--subsystem,windows",
+				"-mwindows",
+				"-lrpcrt4",
+				"-luuid",
+				"-lwinspool",
+				"-lwinmm",
+				"-lwxmsw33u_core",
+				"-lwxbase33u",
+			
+			],
+			"options": {
+				"cwd": "c:\\mingw-w64\\mingw64\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: c:\\mingw-w64\\mingw64\\bin\\g++.exe"
+		}
+	]
+}

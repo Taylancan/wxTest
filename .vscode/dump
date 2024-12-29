@@ -1,0 +1,61 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "debug",
+			"command": "c:\\mingw-w64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-g", 
+				"${workspaceFolder}\\src\\*.cpp", 
+				"-o", 
+				"${workspaceFolder}\\build\\debug\\${fileBasenameNoExtension}.exe",
+				"-I",
+				"${workspaceFolder}\\include",
+				"-I",
+				"C:\\Program Files (x86)\\wxWidgets\\include",
+				"-I",
+				"C:\\Program Files (x86)\\wxWidgets\\lib\\gcc_x64_dll\\mswud",
+				"-L",
+				"C:\\Program Files (x86)\\wxWidgets\\lib\\gcc_x64_dll",
+				"-D",
+				"__WXMSW__",
+				"-D",
+				"WXUSINGDLL",
+				"-mthreads", 
+				"-Wl,--subsystem,windows",
+				"-mwindows",
+				"-lwxjpeg",
+				"-lwxpng",
+				"-lwxzlib",
+				"-lrpcrt4",
+				"-loleaut33",
+				"-lole33",
+				"-luuid",
+				"-lwinspool",
+				"-lwinmm",
+				"-lshell33" ,
+				"-lcomctl33",
+				"-lcomdlg33",
+				"-ladvapi33",
+				"-lwsock33",
+				"-lgdi33",
+				"-lwxtiff",
+				"-lwxmsw33ud_core",
+				"-lwxbase33ud",
+				"-lwxexpat"
+			],
+			"options": {
+				"cwd": "c:\\mingw-w64\\mingw64\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: c:\\mingw-w64\\mingw64\\bin\\g++.exe"
+		}
+	]
+}
