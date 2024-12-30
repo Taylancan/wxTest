@@ -19,7 +19,7 @@ or without telemetry / De-Microsofted version:
 
 
 # wxWidgets:  
-GIT build from scratch:
+GIT build from scratch:  
   * https://github.com/wxWidgets/wxWidgets  
 or just download:  
   * https://github.com/wxWidgets/wxWidgets/releases  
