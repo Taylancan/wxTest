@@ -7,9 +7,13 @@ This way I think that I will be able to use it freely without care about depende
 
 
 # So my Editor is VS Code you could also try Codium  
-Install here:  
-  * https://code.visualstudio.com/download  
+
+Install here: 
+
+  * https://code.visualstudio.com/download
+
 or without telemetry / De-Microsofted version:  
+
   * https://github.com/VSCodium/vscodium/releases  
 
 
@@ -19,14 +23,18 @@ or without telemetry / De-Microsofted version:
 
 
 # wxWidgets:  
-GIT build from scratch:  
-  * https://github.com/wxWidgets/wxWidgets  
-or just download:  
+
+ GIT build the most recent:  
+  * https://github.com/wxWidgets/wxWidgets
+
+ or just download a release (more recommended for productive use):  
+ 
   * https://github.com/wxWidgets/wxWidgets/releases  
 
 
 
 # Based on Tutorials:  
+
   * https://www.youtube.com/watch?v=tHMGA0jIl3Y    
   * https://code.visualstudio.com/docs/cpp/config-mingw    
   * https://docs.wxwidgets.org/3.2.6/overview_install.html    
@@ -39,7 +47,7 @@ or just download:
 
 
 # Try to learn markdown real quick: :+1:
-
+ * https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 to be continued:
  
