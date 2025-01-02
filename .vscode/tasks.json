@@ -61,7 +61,8 @@
 			"label": "release",
 			"command": "c:\\mingw-w64\\mingw64\\bin\\g++.exe",
 			"args": [
-				"${workspaceFolder}\\src\\*.cpp", 
+			 
+				"${workspaceFolder}\\src\\*.cpp",
 				"-o", 
 				"${workspaceFolder}\\build\\release\\${fileBasenameNoExtension}.exe",
 				"-I",
@@ -85,7 +86,17 @@
 				"-lwinmm",
 				"-lwxmsw32u_core",
 				"-lwxbase32u",
-			
+				"-lkernel32",
+				"-luser32",
+				"-lgdi32",
+				"-lwinspool",
+				"-lshell32",
+				"-lole32",
+				"-loleaut32",
+				"-luuid",
+				"-lcomdlg32",
+				"-ladvapi32",
+						
 			],
 			"options": {
 				"cwd": "c:\\mingw-w64\\mingw64\\bin"
@@ -98,6 +109,6 @@
 				"isDefault": true
 			},
 			"detail": "compiler: c:\\mingw-w64\\mingw64\\bin\\g++.exe"
-		}
+		},
 	]
 }
