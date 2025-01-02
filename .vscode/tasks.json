@@ -29,9 +29,19 @@
 				"-luuid",
 				"-lwinspool",
 				"-lwinmm",
-				"-lwxmsw33ud_core",
-				"-lwxbase33ud",
-			
+				"-lwxmsw32ud_core",
+				"-lwxbase32ud",
+				"-lkernel32",
+				"-luser32",
+				"-lgdi32",
+				"-lwinspool",
+				"-lshell32",
+				"-lole32",
+				"-loleaut32",
+				"-luuid",
+				"-lcomdlg32",
+				"-ladvapi32",
+						
 			],
 			"options": {
 				"cwd": "c:\\mingw-w64\\mingw64\\bin"
@@ -73,8 +83,8 @@
 				"-luuid",
 				"-lwinspool",
 				"-lwinmm",
-				"-lwxmsw33u_core",
-				"-lwxbase33u",
+				"-lwxmsw32u_core",
+				"-lwxbase32u",
 			
 			],
 			"options": {
